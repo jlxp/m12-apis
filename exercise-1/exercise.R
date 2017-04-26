@@ -1,11 +1,12 @@
 ### Exercise 1 ###
 
 # Load the httr and jsonlite libraries for accessing data
-
+library('httr')
+library('jsonlite')
 
 ## For these questions, look at the API documentation to identify the appropriate endpoint and information.
 ## Then send GET() request to fetch the data, then extract the answer to the question
-
+GET()
 # For what years does the API have statistical data?
 
 

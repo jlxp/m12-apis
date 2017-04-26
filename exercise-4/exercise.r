@@ -4,15 +4,15 @@ library(httr)
 
 # Make a variable base.url that has the same base url from the omdb documentation.
 # (Hint: visit https://www.omdbapi.com/ to find the base url)
-
+base.uri <- "https://www.omdbapi.com/"
 
 # Make a variable called movie that has the name of your favorite movie
-
+movie <- "Megamind"
 
 # Make a variable called "query.parameters" that holds a list of the parameters
 # to pass to the API. View the OMDb documentation to see which parameters
 # are available.
-
+query.parameters <- 
 
 # Make a variable called request that is a string of a request URL made up of the base URL
 # and the parameters string
